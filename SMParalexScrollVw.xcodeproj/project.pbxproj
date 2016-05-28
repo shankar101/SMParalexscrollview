@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		906D79511CE6DB8B0076D825 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 906D79501CE6DB8B0076D825 /* main.m */; };
 		906D79541CE6DB8B0076D825 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 906D79531CE6DB8B0076D825 /* AppDelegate.m */; };
-		906D79571CE6DB8B0076D825 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906D79561CE6DB8B0076D825 /* ViewController.m */; };
 		906D795A1CE6DB8B0076D825 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906D79581CE6DB8B0076D825 /* Main.storyboard */; };
 		906D795D1CE6DB8B0076D825 /* SMParalexScrollVw.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 906D795B1CE6DB8B0076D825 /* SMParalexScrollVw.xcdatamodeld */; };
 		906D795F1CE6DB8B0076D825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 906D795E1CE6DB8B0076D825 /* Assets.xcassets */; };
 		906D79621CE6DB8B0076D825 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906D79601CE6DB8B0076D825 /* LaunchScreen.storyboard */; };
 		906D796D1CE6DB8B0076D825 /* SMParalexScrollVwTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 906D796C1CE6DB8B0076D825 /* SMParalexScrollVwTests.m */; };
 		906D79781CE6DB8B0076D825 /* SMParalexScrollVwUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 906D79771CE6DB8B0076D825 /* SMParalexScrollVwUITests.m */; };
+		906D79881CE6DC950076D825 /* HomeVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 906D79871CE6DC950076D825 /* HomeVc.m */; settings = {ASSET_TAGS = (); }; };
+		906D79921CE6DCF10076D825 /* BSSocialButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 906D798C1CE6DCF10076D825 /* BSSocialButton.m */; settings = {ASSET_TAGS = (); }; };
+		906D79931CE6DCF10076D825 /* BSSocialCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 906D798E1CE6DCF10076D825 /* BSSocialCenterButton.m */; settings = {ASSET_TAGS = (); }; };
+		906D79941CE6DCF10076D825 /* BSSocialItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 906D79901CE6DCF10076D825 /* BSSocialItemButton.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +43,6 @@
 		906D79501CE6DB8B0076D825 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		906D79521CE6DB8B0076D825 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		906D79531CE6DB8B0076D825 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		906D79551CE6DB8B0076D825 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		906D79561CE6DB8B0076D825 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		906D79591CE6DB8B0076D825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		906D795C1CE6DB8B0076D825 /* SMParalexScrollVw.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SMParalexScrollVw.xcdatamodel; sourceTree = "<group>"; };
 		906D795E1CE6DB8B0076D825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +54,14 @@
 		906D79731CE6DB8B0076D825 /* SMParalexScrollVwUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMParalexScrollVwUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		906D79771CE6DB8B0076D825 /* SMParalexScrollVwUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMParalexScrollVwUITests.m; sourceTree = "<group>"; };
 		906D79791CE6DB8B0076D825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		906D79861CE6DC950076D825 /* HomeVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVc.h; sourceTree = "<group>"; };
+		906D79871CE6DC950076D825 /* HomeVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVc.m; sourceTree = "<group>"; };
+		906D798B1CE6DCF10076D825 /* BSSocialButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSocialButton.h; sourceTree = "<group>"; };
+		906D798C1CE6DCF10076D825 /* BSSocialButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSSocialButton.m; sourceTree = "<group>"; };
+		906D798D1CE6DCF10076D825 /* BSSocialCenterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSocialCenterButton.h; sourceTree = "<group>"; };
+		906D798E1CE6DCF10076D825 /* BSSocialCenterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSSocialCenterButton.m; sourceTree = "<group>"; };
+		906D798F1CE6DCF10076D825 /* BSSocialItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSocialItemButton.h; sourceTree = "<group>"; };
+		906D79901CE6DCF10076D825 /* BSSocialItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSSocialItemButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +114,8 @@
 			children = (
 				906D79521CE6DB8B0076D825 /* AppDelegate.h */,
 				906D79531CE6DB8B0076D825 /* AppDelegate.m */,
-				906D79551CE6DB8B0076D825 /* ViewController.h */,
-				906D79561CE6DB8B0076D825 /* ViewController.m */,
+				906D79891CE6DCF10076D825 /* BSSocialButton */,
+				906D79851CE6DC950076D825 /* RLMyGroupDetailsVC */,
 				906D79581CE6DB8B0076D825 /* Main.storyboard */,
 				906D795E1CE6DB8B0076D825 /* Assets.xcassets */,
 				906D79601CE6DB8B0076D825 /* LaunchScreen.storyboard */,
@@ -141,6 +150,44 @@
 				906D79791CE6DB8B0076D825 /* Info.plist */,
 			);
 			path = SMParalexScrollVwUITests;
+			sourceTree = "<group>";
+		};
+		906D79851CE6DC950076D825 /* RLMyGroupDetailsVC */ = {
+			isa = PBXGroup;
+			children = (
+				906D79861CE6DC950076D825 /* HomeVc.h */,
+				906D79871CE6DC950076D825 /* HomeVc.m */,
+			);
+			path = RLMyGroupDetailsVC;
+			sourceTree = "<group>";
+		};
+		906D79891CE6DCF10076D825 /* BSSocialButton */ = {
+			isa = PBXGroup;
+			children = (
+				906D798A1CE6DCF10076D825 /* Classes */,
+				906D79911CE6DCF10076D825 /* Sounds */,
+			);
+			path = BSSocialButton;
+			sourceTree = "<group>";
+		};
+		906D798A1CE6DCF10076D825 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				906D798B1CE6DCF10076D825 /* BSSocialButton.h */,
+				906D798C1CE6DCF10076D825 /* BSSocialButton.m */,
+				906D798D1CE6DCF10076D825 /* BSSocialCenterButton.h */,
+				906D798E1CE6DCF10076D825 /* BSSocialCenterButton.m */,
+				906D798F1CE6DCF10076D825 /* BSSocialItemButton.h */,
+				906D79901CE6DCF10076D825 /* BSSocialItemButton.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		906D79911CE6DCF10076D825 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,10 +320,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				906D79571CE6DB8B0076D825 /* ViewController.m in Sources */,
 				906D79541CE6DB8B0076D825 /* AppDelegate.m in Sources */,
+				906D79941CE6DCF10076D825 /* BSSocialItemButton.m in Sources */,
 				906D79511CE6DB8B0076D825 /* main.m in Sources */,
+				906D79881CE6DC950076D825 /* HomeVc.m in Sources */,
 				906D795D1CE6DB8B0076D825 /* SMParalexScrollVw.xcdatamodeld in Sources */,
+				906D79931CE6DCF10076D825 /* BSSocialCenterButton.m in Sources */,
+				906D79921CE6DCF10076D825 /* BSSocialButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +550,7 @@
 				906D797E1CE6DB8B0076D825 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		906D797F1CE6DB8B0076D825 /* Build configuration list for PBXNativeTarget "SMParalexScrollVwTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +559,7 @@
 				906D79811CE6DB8B0076D825 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		906D79821CE6DB8B0076D825 /* Build configuration list for PBXNativeTarget "SMParalexScrollVwUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +568,7 @@
 				906D79841CE6DB8B0076D825 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
